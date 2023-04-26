@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 95vh;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main {
+    width: 1200px;
+    height: 650px;
+    background: #eee;
+    margin: 0px auto;
+    margin-top: 12px;
+
+}
+
+#logo {
+    margin: 13px 20px;
+}
+
+.texto {
+    text-align: center;
+    height: 400px;
+    padding: 80px;
+    position: relative;
+    left: -120px;
+    top: -80px;
+
+}
+
+.texto textarea {
+    width: 650px;
+    height: 400px;
+    resize: none;
+    border: none;
+    font-size: 40px;
+    background: #eee;
+}
+
+.texto textarea:focus {
+    outline: none;
+}
+
+.bar {
+    float: right;
+    width: 340px;
+    height: 600px;
+    margin-right: 14px;
+    position: relative;
+    top: -640px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+}
+
+#bot {
+    position: relative;
+    top: 40px;
+}
+
+.bar span {
+    position: relative;
+    top: 150px;
+    line-height: 40px;
+
+}
+
+.bar span:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bar span:last-child {
+    font-size: 12px;
+}
+
+.main-button {
+    text-align: center;
+    position: relative;
+    top: -120px;
+}
+
+#textright {
+    width: 300px;
+    height: 95px;
+    margin-top: 12px;
+    resize: none;
+    border: none; 
+    text-align: center;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.button button {
+
+    background-color: #297AE3;
+    color: white;
+    border: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 14px;
+    font-weight: bold;
+    transition: all 300ms;
+
+}
+
+.button button:first-child {
+    margin-right: 20px;
+    box-shadow: 2px 0px 5px inset lightblue;
+}
+
+.button button:last-child {
+    background-color: #ccc;
+    color: black;
+    box-shadow: 2px 2px 5px inset rgb(192, 189, 189);
+
+
+}
+
+#point {
+    background-color: red;
+    box-shadow: 2px 2px 5px inset rgb(179, 17, 17);
+    padding: 3px 10px;
+    border-radius: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+#copy {
+    margin: 0px auto;
+    position: relative;
+    top: -250px;
+    left: 985px;
+}
+
+#copy button {
+    margin-right: 20px;
+    box-shadow: 2px 0px 3px inset lightblue;
+    background-color: #297AE3;
+    border: transparent;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transition: all 300ms;
+}
+button:hover {
+    transform: scale(1.2, 1.2);
+}
